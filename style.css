@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.bookContainer{
+ margin: auto auto;
+ padding: 10px;
+ background-color: rgb(209, 206, 206);
+ width: 400px;
+ border-radius: 10px;
+ margin-top: 20px;
+
+}
+.image{
+ width: 400px;
+}
+.menu{
+ height: 50px; 
+ background-color: rgb(219, 219, 213);
+ position: fixed;
+ top: 0;
+ width: 100%;
+ text-align: center;
+
+ 
+}
+
+.heading{
+color: #835e78;
+font-family: 'Lalezar';
+}
+.paragraph{
+width: 400px; text-align: justify;
+}
+body{
+margin: 0;
+padding: 0;
+margin-top: 20px;
+background-color: rgb(94, 65, 85);
+direction: rtl;
+}
+.gotopbtn{
+    position: fixed;
+  background: black; 
+    bottom: 20px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 0px;
+    font-size: 30px;
+}
+
+a:link , a:visited {
+   
+    color: rgb(54, 39, 54);
+    border: 3px solid rgb(97, 96, 96);
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    background-color:transparent;
+    font-family: 'lalezar';
+    
+}
+
+a:hover , a:active {
+    background-color: indigo;
+    color: lavender;
+
+}
+.farsi{
+    font-family:'lalezar' ;
+}
+.book1{
+    margin-top: 100px;
+}

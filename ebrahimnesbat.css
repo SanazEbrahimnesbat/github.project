@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url('images/science.jpg' );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+.title{
+    position: fixed;
+    color: rgb(15, 14, 15);
+    left: 178px;
+    top: 175px;
+    font-size: 45px;
+}
+.subtitle{
+    position: fixed;
+    color: rgb(15, 14, 15);
+    left: 300px; ;
+    top: 220px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu{
+    height: 50px; 
+ background-color: rgb(219, 219, 213);
+ position: fixed;
+ top: 0;
+ width: 100%;
+ text-align: center;
+
+ 
+}
+.gotopbtn{
+    position: fixed;
+  background: black; 
+    bottom: 20px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 0px;
+    font-size: 30px;
+}
